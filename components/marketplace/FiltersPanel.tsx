@@ -1,6 +1,6 @@
 'use client'
 
-import { MarketplaceFilters, ProductCategory } from '../../lib/types'
+import { MarketplaceFilters, ProductCategory } from '../../lib/types/listing'
 import { CATEGORIES, CITIES, SORT_OPTIONS } from '../../lib/types/mock-data'
 
 interface FiltersProps {

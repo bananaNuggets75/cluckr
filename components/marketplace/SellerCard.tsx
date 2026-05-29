@@ -1,6 +1,6 @@
 'use client'
 
-import { Seller, Listing } from '../../lib/types'
+import { Seller, Listing } from '../../lib/types/listing'
 
 interface SellerCardProps {
   seller: Seller
