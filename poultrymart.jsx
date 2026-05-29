@@ -46,8 +46,13 @@ export default function PoultryMart() {
             <Text style={styles.brandName}>ManokMarketPlace</Text>
             <Text style={styles.brandTagline}>Fresh Chickens & Quality Feeds</Text>
           </View>
-          <Pressable style={styles.shopBtn}>
-            <Text style={styles.shopBtnText}>Shop</Text>
+          <Pressable style={styles.SellerBtn}>
+            <Text style={styles.shopBtnText}>Be a Seller</Text>
+            {/* Link the seller page here*/}
+          </Pressable>
+          <Pressable style={styles.BuyerBtn}>
+            <Text style={styles.shopBtnText}>Log - in</Text>
+            {/* link the buyer page */}
           </Pressable>
         </View>
 
@@ -237,7 +242,13 @@ const styles = StyleSheet.create({
     color: ZINC_500,
     marginTop: 4,
   },
-  shopBtn: {
+  SellerBtn: {
+    backgroundColor: RED,
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    borderRadius: 16,
+},
+  BuyerBtn: {
     backgroundColor: RED,
     paddingHorizontal: 20,
     paddingVertical: 12,
