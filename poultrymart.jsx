@@ -100,21 +100,9 @@ export default function PoultryMart() {
           </View>
 
           {/* Stats */}
-          <View style={styles.statsRow}>
-            <View style={styles.statItem}>
-              <Text style={styles.statNumber}>1K+</Text>
-              <Text style={styles.statLabel}>Customers</Text>
-            </View>
-            <View style={styles.statItem}>
-              <Text style={styles.statNumber}>24H</Text>
-              <Text style={styles.statLabel}>Delivery</Text>
-            </View>
-            <View style={styles.statItem}>
-              <Text style={styles.statNumber}>100%</Text>
-              <Text style={styles.statLabel}>Fresh</Text>
-            </View>
+          
           </View>
-        </View>
+       
 
         {/* Products */}
         <View style={styles.productsSection}>
